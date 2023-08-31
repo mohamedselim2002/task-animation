@@ -1,0 +1,212 @@
+
+body{
+  background: url(/img/nature-3082832_1280.jpg);
+}
+ .div1{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  animation-name: change;
+  animation-duration: 3s;
+  animation-iteration-count: infinit;
+  animation-timing-function:ease-out ;
+  animation-fill-mode: forwards;
+  background: url(/img/1.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+ .div1:hover{
+  animation-play-state: paused;
+ }
+
+ @keyframes change {
+  0% {
+      left: 0;
+    border-radius: 5px;
+
+  }
+  25% {
+   
+    border-radius: 10px;
+    
+  }
+  50% {
+      
+    
+    border-radius: 15px;
+
+  }
+  75% {
+     
+    border-radius: 20px;
+     
+    
+  }
+  100% {
+    border-radius: 25px;
+      left: 1050px;
+  
+      
+  }
+}
+/* /////////////////1111111111111111111111111 ////////////////*/
+ .div2{
+  position: absolute;
+  top: 150px;
+  width: 200px;
+  height: 100px;
+  right: 0;
+  background-color: blue;
+  animation-name: graphic;
+  animation-duration: 5s;
+  animation-iteration-count: infinit;
+  animation-delay: 3s;
+  animation-timing-function:ease-out ;
+
+  animation-fill-mode: forwards;
+  background: url(/img/1.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+
+ @keyframes graphic {
+  0% {
+   
+      right:  0;
+    border-radius: 5px;
+
+  }
+  25% {
+   
+    border-radius: 10px;
+    
+  }
+  50% {
+      
+    
+    border-radius: 15px;
+
+  }
+  75% {
+     
+    border-radius: 20px;
+     
+    
+  }
+  100% {
+    border-radius: 25px;
+      right: 1050px;
+  
+      
+  }
+}
+/* ////////////////2//////////////////////////////// */
+
+.div3{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 300px;
+  background-color: blue;
+  animation-name: change;
+  animation-duration: 5s;
+  animation-iteration-count: infinit;
+  animation-delay: 9s;
+  animation-timing-function:ease-out ;
+  animation-fill-mode: forwards;
+  background: url(/img/1.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+
+ @keyframes change {
+  0% {
+      left: 0;
+    border-radius: 5px;
+
+  }
+  25% {
+   
+    border-radius: 10px;
+    
+  }
+  50% {
+      
+    
+    border-radius: 15px;
+
+  }
+  75% {
+     
+    border-radius: 20px;
+     
+    
+  }
+  100% {
+    border-radius: 25px;
+      left: 1050px;
+  
+      
+  }
+}
+/* 3333333333333333333333333333333333333 */
+ .div4{
+  position: absolute;
+  top: 450px;
+  width: 200px;
+  height: 100px;
+right: 0;
+  background-color: blue;
+  animation-name: graphic;
+  animation-duration: 5s;
+  animation-iteration-count: infinit;
+  animation-delay: 14s;
+  animation-timing-function:ease-out ;
+
+  animation-fill-mode: forwards;
+  background: url(/img/1.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+
+ @keyframes graphic {
+  0% {
+   
+      right:  0;
+    border-radius: 5px;
+
+  }
+  25% {
+   
+    border-radius: 10px;
+    
+  }
+  50% {
+      
+    
+    border-radius: 15px;
+
+  }
+  75% {
+     
+    border-radius: 20px;
+     
+    
+  }
+  100% {
+    border-radius: 25px;
+      right: 1050px;
+  
+      
+  }
+}
+
